@@ -1,0 +1,63 @@
+#logos {
+  background-color: #529BF9;
+
+  img {
+    height: 100px;
+  }
+  #jquery-logo {
+    height: 60px;
+  }
+  .logo {
+    width: 250px;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+     &:hover {
+       top: -10px;
+     }
+    svg {
+      margin: 1rem;
+    }
+    .logo__image {
+      width: 100%;
+    }
+  }
+
+  h1 {
+    padding-top: 5rem;
+  }
+}
+
+.logo-link {
+  width: 30px;
+}
+
+@media only screen and (min-width: 375px) {
+
+  #logos {
+    .logo {
+      width: 70%;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  #logos {
+    .logo {
+      width: 33%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1160px) {
+  #logos {
+    .logo {
+      width: 20%;
+    }
+  }
+}

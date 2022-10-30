@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Load styles here -->
+
+     <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css" />
+      <!-- Load scripts here -->
+    <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> -->
+
+
+  </head>
+  <body class="preload">
+    <header>
+      <h3 class="logo">Marcus Ko</h3>
+      <nav class="menu">
+            <ul class="navmenu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#articles">Projects</a></li>
+              <li><a href="#footer">Contact</a></li>
+            </ul>
+
+            <div id="hamburgerIcon">
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="mobilenav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#articles">Projects</a></li>
+                <li><a href="#footer">Contact</a></li>
+              </ul>
+             
+            </div>
+      </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero hero--background">
+      <div class="falling__star txt--white">.</div>
+      <div class="falling__star_2 txt--white">.</div>
+      <div class="falling__star_3 txt--white">.</div>
+        <h1 class="title txt--white fade-in">"Always find opportunities to make someone smile, and to offer random acts of kindness in everyday life."</h1>
+        <span class="title author txt--white fade-in">- Roy T. Bennett, The Light in the Heart</span>
+    </div>
+    <!-- <p><span>Photo by <a href="https://unsplash.com/@_arween_?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andreia Alexandre</a> on <a href="https://unsplash.com/s/photos/mountains-height-500px?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p> -->
+    <p><span>Photo by <a href="https://unsplash.com/@vorosbenisop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Benjamin Voros</a> on <a href="https://unsplash.com/s/photos/mountains?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+  </section>
+
+  <section class="grid-container fluid" id="articles">
+    <h1 class="section title">My most recent Web Development work</h1>
+    <div class="row wrapper grid-x grid-margin-x">
+      <div class="article medium-4">
+        <div class="img__wrapper">
+        <img class="article__image lozad" data-fully-loaded="false" src="img/air-thumb-lg.png" />
+      </div>
+        <!-- <p><a href="https://www.allstateinvestors.com">Allstate Investors</a></p> -->
+        <div class="copy__wrapper">
+          <h2>Allstate Investors</h2>
+          <p>I worked with a team of developers and UX Designers to style the front end using PugJs, SASS, using a GulpJs workflow.<label for="mpo-modal-controller" class="modal-btn">Examples <i class="fas fa-external-link-square-alt"></i></label></p>
+        
+        </div>
+        <div class="mpo-modal">
+          <input type="checkbox" id="mpo-modal-controller" class="mpo-modal-open" hidden>
+          <div class="mpo-modal-wrap">
+            <label for="mpo-modal-controller" class="mpo-modal-overlay"></label>
+            <div class="mpo-modal-body">
+        
+              <label for="mpo-modal-controller" class="mpo-modal-close">&times;</label>
+        
+              <input type="radio" name="content-nav" id="modal-content-1" class="modal-radio" checked hidden/>
+              <input type="radio" name="content-nav" id="modal-content-2" class="modal-radio" hidden/>
+              <input type="radio" name="content-nav" id="modal-content-3" class="modal-radio" hidden/>
+        
+              <div class="mpo-modal-slide content-1">
+                <div class="mpo-modal-content">
+                    <img src="img/allstate-investors-example-1.png" />
+                  <div class="mpo-modal-nav">
+                    <label for="modal-content-2" class="next-slide">&#8250;&#8250;</label>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="mpo-modal-slide content-2">
+                <div class="mpo-modal-content">
+                    <img src="img/allstate-investors-example-2.png" />
+        
+                  <div class="mpo-modal-nav">
+                    <label for="modal-content-1" class="prev-slide">&#8249;&#8249;</label>
+                    <label for="modal-content-3" class="next-slide">&#8250;&#8250;</label>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="mpo-modal-slide content-3">
+                <div class="mpo-modal-content">
+
+                    <img src="img/allstate-investors-example-4.png" />
+                  <div class="mpo-modal-nav">
+                    <label for="modal-content-2" class="prev-slide">&#8249;&#8249;</a>
+                  </div>
+                </div>
+              </div>
+        
+            </div>
+
+          </div>
+        
+        </div>
+      </div>
+
+      <div class="article medium-4">
+        <div class="img__wrapper">
+        <img class="lozad article__image" data-fully-loaded="false" src="img/react-image-upload-thumb-2.png" />
+      </div>
+        <!-- <p>Photo by <a href="https://www.pexels.com/@fauxels?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">fauxels</a> from <a href="https://www.pexels.com">Pexels</a></p> -->
+        <div class="copy__wrapper">
+        <h2>React Image Upload</h2>
+        <p>I created a basic image upload app with react, node.js and AWS Javascript SDK which connects to an AWS S3 bucket to upload files.  The project is available on my github page <a href="https://github.com/marcus-ko/react-image-upload" target=”_blank”>here <i class="fas fa-external-link-square-alt"></i></a>.</p>
+        </div>
+           
+      </div>
+
+      <div class="article medium-4">
+        <div class="img__wrapper">
+        <img class="article__image lozad" data-fully-loaded="false" src="img/flickr-photo-locator-thumb.png" />
+        </div>
+        <div class="copy__wrapper">
+        <h2>Flickr Photo Locator</h2>
+        <p>Using Flickr's API, I created a site which locates where Flickr photos were taken.  The results displays photos on the right side and a map with markers on the left side.  I used an open source mapping tool called Mapbox to display the map. The site is hosted on heroku's platform <a href="https://lit-ridge-99480.herokuapp.com/" target=”_blank”>here <i class="fas fa-external-link-square-alt"></i></a>.</p>
+          </div>
+           
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section class="grid-container fluid" id="logos">
+    <h1 class="title txt--white">Experience with these Front End Tools</h1>
+    <div class="row wrapper grid-x grid-margin-x">
+      <div class="logo medium-4 columns">
+        <img src="img/HTML5_Logo_64.png" />
+      </div>
+
+      <div class="logo medium-4 columns">
+        <img src="img/css-logo.png" />
+      </div>
+
+      <div class="logo medium-4 columns">
+        <img src="img/JavaScript-Logo.png" />
+      </div>
+
+      <div class="logo medium-4 columns">
+        <img src="img/sass-logo.png" />
+      </div>
+    </div>
+    <div class="row wrapper grid-x grid-margin-x">
+
+      <div class="logo medium-4 columns">
+        <img id="jquery-logo" src="img/JQuery_logo.svg" />
+      </div>
+
+      <div class="logo medium-4 columns">
+        <img src="img/Git-Logo-2Color.png" />
+      </div>
+
+      <div class="logo medium-4 columns">
+        <img src="img/GitHub_Logo.png" />
+      </div>
+      <div class="logo medium-4 columns">
+        <img src="img/64px-Gulp.js_Logo.png" />
+      </div>
+    </div>
+
+  </section>
+  <section class="grid-container fluid" id="accordion">
+    <h1 class="title txt--align-center">A few of my favorite photos displayed in a CSS Accordion</h1>
+    <div class="css-only-accordion">
+ 
+      <!-- One Tab Inside The Accordion -->
+      <div>
+        <input type="checkbox" name="tabs" id="tab-1">
+        <label for="tab-1">Leaves in the Fall</label>
+         
+        <div class="tab-content sm-height">
+          <img src="img/fall-photo.jpg" />
+        </div>
+       
+      </div>
+       
+      <div>
+        <input type="checkbox" name="tabs" id="tab-2">
+        <label for="tab-2">Apples on a plate</label>
+         
+        <div class="tab-content sm-height">
+          <img src="img/apple-photo.jpg" />
+        </div>
+       
+      </div>
+
+      <div>
+        <input type="checkbox" name="tabs" id="tab-3">
+        <label for="tab-3">Summer Days</label>
+         
+        <div class="tab-content sm-height">
+          <img src="img/summer-days.jpg" />
+        </div>
+       
+      </div>
+       
+    </div>
+  </section>
+  <footer id="footer">
+    
+    <div class="grid-x grid-margin-x">
+      <div class="medium-6 large-4">
+        <ul class="footer footer__links social__links">
+          <h2 class="txt--white">Social Icons</h2>
+          <li><a href="https://www.flickr.com/photos/inspired-photos/" target=”_blank”>
+            <img class="logo--small" src="img/flickr-xxl.png" />
+          </a></li>
+          <li><a href="https://www.linkedin.com/in/marcusko/" target=”_blank”>
+            <img class="logo--small" src="img/linkedin-3-xxl.png"/>
+          </a></li>
+          <li><a href="https://github.com/marcus-ko" target=”_blank”>
+            <img class="logo--small" src="img/GitHub-Mark-Light-64px.png" />
+          </a></li>
+        </ul>
+      </div>
+
+      <div class="medium-6 large-4">
+        <ul class="footer footer__links">
+          <h2 class="txt--white">Resources</h2>
+          <li><a href="https://babeljs.io/" target=”_blank”>babeljs</a></li>
+          <li><a href="https://htmlcolorcodes.com/" target=”_blank”>HTML Color Codes</a></li>
+          <li><a href="https://dev.to" target=”_blank”>dev.to</a></li>
+          <li><a href="https://pixlr.com/" target=”_blank”>pixlr</a></li>
+          <li><a href="https://www.postman.com/" target=”_blank”>Postman</a></li>
+          <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target=”_blank”>A Guide To Flexbox</a></li>
+        </ul>
+      </div>
+
+      <div class="medium-6 large-4">
+        <ul class="footer footer__links">
+          <h2 class="txt--white">Contact</h2>
+          <div id="contact">
+            <div class="">
+            <!-- <h2 class="section-titles txt--white">Contact</h2> -->
+            <form class="form-horizontal" role="form" method="post" action="sendEmail.php">
+            <div class="form-group">
+              <label for="name" class="col-sm-2 control-label">Name</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" name="name" placeholder="First Name" value="">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject" class="col-sm-2 control-label">Subject</label>
+              <div class="col-sm-10">
+                <input type="subject" class="form-control" id="subject" name="subject" placeholder="subject" value="">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="col-sm-2 control-label">Message</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" rows="4" name="comments"></textarea>
+              </div>
+            </div>
+          
+            <div class="form-group">
+              <div class="col-sm-10 col-sm-offset-2">
+                <input id="submit" name="submit" type="submit" value="Submit" class="btn btn--white">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-10 col-sm-offset-2">
+                
+              </div>
+            </div>
+            
+          </form>
+          </div>
+          
+          </div>
+        
+        </ul>
+        </div>
+
+  </div>
+
+  </footer>
+
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+ <script src="js/app.js"></script>
+<!-- Compressed JavaScript -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script> -->
+</body>
+</html>

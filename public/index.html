@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Load styles here -->
+
+     <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css" />
+      <!-- Load scripts here -->
+    <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> -->
+
+
+  </head>
+  <body class="preload">
+    <header>
+      <h3 class="logo">Marcus Ko</h3>
+      <nav class="menu">
+            <ul class="navmenu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#articles">Projects</a></li>
+              <li><a href="#footer">Contact</a></li>
+            </ul>
+
+            <div id="hamburgerIcon">
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="mobilenav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#articles">Projects</a></li>
+                <li><a href="#footer">Contact</a></li>
+              </ul>
+             
+            </div>
+      </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero hero--background">
+      <div class="falling__star txt--white">.</div>
+      <div class="falling__star_2 txt--white">.</div>
+      <div class="falling__star_3 txt--white">.</div>
+        <h1 class="title txt--white fade-in">"Always find opportunities to make someone smile, and to offer random acts of kindness in everyday life."</h1>
+        <span class="title author txt--white fade-in">- Roy T. Bennett, The Light in the Heart</span>
+        <!-- <p class="hero hero--credit"><span>Photo by <a href="https://unsplash.com/@vorosbenisop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Benjamin Voros</a> on <a href="https://unsplash.com/s/photos/mountains?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p> -->
+    </div>
+    <!-- <p><span>Photo by <a href="https://unsplash.com/@_arween_?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andreia Alexandre</a> on <a href="https://unsplash.com/s/photos/mountains-height-500px?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p> -->
+    
+  </section>
+
+  <section class="grid-container fluid" id="articles">
+    <h1 class="section title">My most recent Web Development work</h1>
+
+    <!-- ROW 1 -->
+    <div class="row wrapper grid-x grid-margin-x">
+      <div class="article medium-4">
+        <div class="img__wrapper">
+        <img class="article__image lozad" data-fully-loaded="false" src="img/air-thumb-lg.png" />
+      </div>
+        <!-- <p><a href="https://www.allstateinvestors.com">Allstate Investors</a></p> -->
+        <div class="copy__wrapper">
+          <h2>Allstate Investors</h2>
+          <p>I worked with a team of developers and UX Designers to style the front end using PugJs, SASS, using a GulpJs workflow.  Examples can be viewed <label for="mpo-modal-controller" class="modal-btn" tabindex="0">here</label>.</p>
+        
+        </div>
+        <div class="mpo-modal">
+          <input type="checkbox" id="mpo-modal-controller" class="mpo-modal-open" hidden>
+          <div class="mpo-modal-wrap">
+            <label for="mpo-modal-controller" class="mpo-modal-overlay"></label>
+            <div class="mpo-modal-body">
+        
+              <label for="mpo-modal-controller" class="mpo-modal-close">&times;</label>
+        
+              <input type="radio" name="content-nav" id="modal-content-1" class="modal-radio" checked hidden/>
+              <input type="radio" name="content-nav" id="modal-content-2" class="modal-radio" hidden/>
+              <input type="radio" name="content-nav" id="modal-content-3" class="modal-radio" hidden/>
+        
+              <div class="mpo-modal-slide content-1">
+                <div class="mpo-modal-content">
+                    <img id="investorsExample1" src="img/allstate-investors-example-1.png"/>
+                  <div class="mpo-modal-nav">
+                    <label for="modal-content-2" class="next-slide">&#8250;&#8250;</label>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="mpo-modal-slide content-2">
+                <div class="mpo-modal-content">
+                    <img id="investorsExample2" src="img/allstate-investors-example-2.png" />
+        
+                  <div class="mpo-modal-nav">
+                    <label for="modal-content-1" class="prev-slide">&#8249;&#8249;</label>
+                    <label for="modal-content-3" class="next-slide">&#8250;&#8250;</label>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="mpo-modal-slide content-3">
+                <div class="mpo-modal-content">
+
+                    <img id="investorsExample3" src="img/allstate-investors-example-4.png" />
+                  <div class="mpo-modal-nav">
+                    <label for="modal-content-2" class="prev-slide">&#8249;&#8249;</a>
+                  </div>
+                </div>
+              </div>
+        
+            </div>
+
+          </div>
+        
+        </div>
+      </div>
+
+      <div class="article medium-4">
+        <div class="img__wrapper">
+        <img class="lozad article__image" data-fully-loaded="false" src="img/react-image-upload-thumb.png" />
+      </div>
+        <!-- <p>Photo by <a href="https://www.pexels.com/@fauxels?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">fauxels</a> from <a href="https://www.pexels.com">Pexels</a></p> -->
+        <div class="copy__wrapper">
+        <h2>React Image Upload</h2>
+        <p>I created a basic image upload app with react, node.js and AWS Javascript SDK which connects to an AWS S3 bucket to upload files.  </a>.  To access the demo, click <a href="https://react-aws-image-upload.herokuapp.com/" target="_blank">here <i class="fas fa-external-link-square-alt"></i></a>.</p>
+        <a href="https://github.com/marcus-ko/react-image-upload" target=”_blank”><img class="logo-link" src="img/GitHub-Mark-32px.png" /></a>
+      </div>
+           
+      </div>
+
+      <div class="article medium-4">
+        <div class="img__wrapper">
+        <img class="article__image lozad" data-fully-loaded="false" src="img/react-todo-screenshot.png" />
+        </div>
+        <div class="copy__wrapper">
+        <h2>React Todo App</h2>
+        <p>A React todo list created with Create React app using class components and React Transition Group for toggling item views <a href="https://react-todo-app-build.herokuapp.com/" target=”_blank”>here <i class="fas fa-external-link-square-alt"></i></a>.</p>
+        <a href="https://github.com/marcus-ko/react-todo" target=”_blank”><img class="logo-link" src="img/GitHub-Mark-32px.png" /></a>    
+      </div>
+           
+      </div>
+
+      <div class="article medium-4">
+        <div class="img__wrapper">
+        <img class="article__image lozad" data-fully-loaded="false" src="img/flickr-photo-locator-thumb.png" />
+        </div>
+        <div class="copy__wrapper">
+        <h2>Flickr Photo Locator</h2>
+        <p>Using Flickr's API, I created a website which locates where Flickr photos were taken and displays the results.  I used an open source mapping tool called Mapbox to display the map. The site is hosted on heroku's platform <a href="https://lit-ridge-99480.herokuapp.com/" target=”_blank”>here <i class="fas fa-external-link-square-alt"></i></a>.</p>
+        <a href="https://github.com/marcus-ko/flickr-photo-locator" target=”_blank”><img class="logo-link" src="img/GitHub-Mark-32px.png" /></a>       
+      </div>
+           
+      </div>
+
+      <div class="article medium-4">
+        <div class="img__wrapper">
+        <img class="article__image lozad" data-fully-loaded="false" src="img/faq-accordion-thumb.png" />
+        </div>
+        <div class="copy__wrapper">
+        <h2>FAQ Accordion FrontEnd Challenge</h2>
+        <p>My solution for a FrontEnd design challenge built with Pugjs, SASS and deployed on vercel <a href="https://faq-accordion-card-433uhkuag-marcus-ko.vercel.app/" target=”_blank”>here <i class="fas fa-external-link-square-alt"></i></a>.</p>
+        <a href="https://github.com/marcus-ko/faq-accordion-card" target=”_blank”><img class="logo-link" src="img/GitHub-Mark-32px.png" /></a>       
+      </div>
+           
+      </div>
+
+      <div class="article medium-4">
+        <div class="img__wrapper">
+        <img class="article__image lozad" data-fully-loaded="false" src="img/article-preview-thumb.png" />
+        </div>
+        <div class="copy__wrapper">
+        <h2>Article Component FrontEnd Challenge</h2>
+        <p>My solution for a FrontEnd design challenge built with Pugjs, SASS and deployed on vercel <a href="https://article-preview-component-rofo6a75j-marcus-ko.vercel.app/" target=”_blank”>here <i class="fas fa-external-link-square-alt"></i></a>.</p>
+        <a href="https://github.com/marcus-ko/article-preview-component" target=”_blank”><img class="logo-link" src="img/GitHub-Mark-32px.png" /></a>       
+      </div>
+           
+      </div>
+
+    </div>
+  </section>
+
+  <section class="grid-container fluid" id="articles">
+    <h1 class="section title">UX Design Case Study</h1>
+
+    
+    <div class="article medium-1">
+      <div class="img__wrapper">
+        <img class="article__image lozad" data-fully-loaded="false" src="img/high-fidelity-wireframes.png" />
+        </div>
+      <div class="copy__wrapper">
+      <h2>Overview</h2>
+      <p>I designed a photo sharing app called WhatsLocal that would help identify trending places of interest, foods or products by grouping similiar images into categories.</p>
+
+      <h2>Problem Statement</h2>
+        <p>The idea came about when I realized I had been spending a lot of time searching for either places to take my family, a new place to dine, or even trying to find the latest tech gear.
+        Reading through blogs can provide good information, when you have time to spare.  Many families and even single adults are too busy to read and sift through articles.</p>
+        
+      <h2>What was the goal or desired outcome?</h2>
+      <p>I wanted a faster way to find where other people around the city were visiting, what they were eating or buying.  It is human nature to do things that others are doing.  
+        So I came up with an app that could visually display trends to help in making your decisions a lot quicker.</p>
+    
+        <h2>Users and audience</h2>
+          This app would be really intended for anyone wanting to know what the latest trends were.
+          <ul>
+            <li>Parents</li>
+            <li>Elderly</li>
+            <li>Young Adults</li>
+          </ul>
+        </p>
+
+        <h2>User Interview Questions</h2>
+        <p>
+          <ul>
+            <li>How much time do you spend looking for something to do?</li>
+            <li>Do you always know what to eat for dinner?  If not, what do you do to get ideas.</li>
+            <li>When someone has something of interest, what do you say to them?</li>
+            <li>Does swiping down continually in an app annoy you?</li>
+            <li>What do you think of Instagram?</li>
+            <li>Would you eat something if 50 people in your area bought it?</li>
+            <li>What would make you go somewhere?</li>
+          </ul>
+        </p>
+
+        <h2>My findings</h2>
+        <p>2 personas</p>
+        <ul>
+          <li>Alex: Married, with 2 children under 18, works full time at a company, has a few moments in his day to search on google.</li>
+          <li>Stephanie: Single mom, 3 chilren, works full time at a company, has very little time for browsing the web for anything.</li>
+        </ul>
+
+        <div class="img__wrapper">
+          <img class="article__image lozad" data-fully-loaded="false" src="img/wireframes-output-final.jpg" />
+          </div>
+        <h2>Roles and responsibilities</h2>
+       <ul>
+         <li>Hand drawn sketches</li>
+         <li>Low and High Fidelity Wireframes</li>
+         <li>Prototyping.  Link to prototype demo: <a href="http://bit.ly/prototypdemo" target="_blank">here</a></li>
+       </ul>
+
+       <h2>Tools</h2>
+       <ul>
+         <li>Adobe XD</li>
+         <li>UI Kits</li>
+       </ul>
+      </div>
+         
+    </div>
+  
+  </section>
+
+
+  
+  <section class="grid-container fluid" id="logos">
+   
+
+  </section>
+  <section class="grid-container fluid" id="accordion">
+  
+  </section>
+  <footer id="footer">
+    
+    <div class="grid-x grid-margin-x">
+      <div class="medium-6 large-4">
+        <ul class="footer footer__links social__links">
+          <h2 class="txt--white">Social Icons</h2>
+          <li><a href="https://www.flickr.com/photos/inspired-photos/" target=”_blank”>
+            <img class="logo--small" src="img/flickr-xxl.png" />
+          </a></li>
+          <li><a href="https://www.linkedin.com/in/marcusko/" target=”_blank”>
+            <img class="logo--small" src="img/linkedin-3-xxl.png"/>
+          </a></li>
+          <li><a href="https://github.com/marcus-ko" target=”_blank”>
+            <img class="logo--small" src="img/GitHub-Mark-Light-64px.png" />
+          </a></li>
+        </ul>
+      </div>
+
+      <div class="medium-6 large-4">
+        <ul class="footer footer__links">
+          <h2 class="txt--white">Resources</h2>
+          <li><a href="https://babeljs.io/" target=”_blank”>babeljs</a></li>
+          <li><a href="https://htmlcolorcodes.com/" target=”_blank”>HTML Color Codes</a></li>
+          <li><a href="https://dev.to" target=”_blank”>dev.to</a></li>
+          <li><a href="https://pixlr.com/" target=”_blank”>pixlr</a></li>
+          <li><a href="https://www.postman.com/" target=”_blank”>Postman</a></li>
+          <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target=”_blank”>A Guide To Flexbox</a></li>
+        </ul>
+      </div>
+
+      <div class="medium-6 large-4">
+        <ul class="footer footer__links">
+          <h2 class="txt--white">Contact</h2>
+          <div id="contact">
+            <div class="">
+            <!-- <h2 class="section-titles txt--white">Contact</h2> -->
+            <form class="form-horizontal" role="form" method="post" action="sendEmail.php">
+            <div class="form-group">
+              <label for="name" class="col-sm-2 control-label">Name</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" name="name" placeholder="First Name" value="">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject" class="col-sm-2 control-label">Subject</label>
+              <div class="col-sm-10">
+                <input type="subject" class="form-control" id="subject" name="subject" placeholder="subject" value="">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="col-sm-2 control-label">Message</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" rows="4" name="comments"></textarea>
+              </div>
+            </div>
+          
+            <div class="form-group">
+              <div class="col-sm-10 col-sm-offset-2">
+                <input id="submit" name="submit" type="submit" value="Submit" class="btn btn--white">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-10 col-sm-offset-2">
+                
+              </div>
+            </div>
+            
+          </form>
+          </div>
+          
+          </div>
+        
+        </ul>
+        </div>
+
+  </div>
+
+  </footer>
+
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+ <script src="js/app.js"></script>
+<!-- Compressed JavaScript -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script> -->
+</body>
+</html>

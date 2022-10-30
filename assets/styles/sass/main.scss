@@ -1,0 +1,247 @@
+// @import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+// @import "reset";
+
+body {
+  overflow-x: hidden;
+  // background-color: #ecf0f1;
+  background-color: #06193B;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.preload * {
+  animation: none;
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  -ms-animation: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+}
+
+
+.section.title {
+  color: #fff;
+}
+// h1 {
+//   font-weight: 100;
+//   font-size: 50px;
+// }
+
+// .center {
+//   position: absolute;
+//   left: 50%;
+//   top: 50%;
+//   transform: translate(-50%, -50%);
+// }
+
+// /* thumbnail layout */
+// // .row-main {
+// //   display: flex;
+// //   flex-wrap: wrap;
+// //   padding: 0 4px;
+// // }
+
+// /* Create four equal columns that sits next to each other */
+// .column-main {
+//   flex: 25%;
+//   max-width: 25%;
+//   padding: 0 4px;
+// }
+
+// .column-main img {
+//   margin-top: 8px;
+//   vertical-align: middle;
+//   width: 100%;
+// }
+// .grid {
+//   text-align: center;
+//   max-width: 95vw;
+//   margin: 2.5vw auto;
+// }
+// .grid-item {
+//   padding: 5px;
+//   box-sizing: border-box;
+// 	display:inline;
+// }
+
+// /* clear fix */
+// .grid:after {
+//   content: '';
+//   display: block;
+//   clear: both;
+// }
+
+// /* ---- .grid-item ---- */
+
+// .grid-sizer,
+// .grid-item {
+//   width: 33.333%;
+// }
+
+// // .grid-item {
+// //   float: left;
+// // }
+
+// .grid-item img {
+//   display: block;
+//   max-width: 100%;
+// }
+
+// @media (min-width: 500px) {
+//   .grid-item {
+//     width: 50%;
+//   }
+// }
+
+// @media (min-width: 1000px) {
+//   .grid-item {
+//     width: 33.333%;
+//   }
+// }
+
+// @media (min-width: 1700px) {
+//   .grid-item {
+//     width: 25%;
+//   }
+// }
+
+// @media (min-width: 2100px) {
+//   .grid-item {
+//     width: 20%;
+//   }
+// }
+// // /* Responsive layout - makes a two column-layout instead of 3 columns */
+// // @media screen and (max-width: 800px) {
+// //   .grid-sizer,
+// //   .grid-item {
+// //     width: 50%;
+// //   }
+// // }
+
+// // /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+// // @media screen and (max-width: 600px) {
+// //   .column {
+// //     flex: 100%;
+// //     max-width: 100%;
+// //   }
+// // }
+
+// .loading {
+//   background: transparent url('../img/spinner.gif') center no-repeat;
+// }
+
+// .home {
+//   height: 100%;
+//   width: 100%;
+//   text-align: center;
+
+//   img {
+//     width: 100%;
+//     max-width: 300px;
+//     margin: 0 auto;
+//   }
+
+//   .Aligner {
+//     min-height: 100vh;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//   }
+
+//   .Aligner-item {
+//     max-width: 50%;
+//   }
+
+//   .menu {
+//     ul {
+//       li {
+//         padding: 10px 15px;
+//         display: inline-block;
+//         font-family: 'Roboto', sans-serif;
+//         font-size: 18px;
+//         font-weight: 500;
+//       }
+//     }
+//   }
+
+//   .version-num {
+//     background: #E8E8E8;
+//     border-radius: 4px;
+//     padding: 7px 15px;
+//     display: inline-block;
+//     font-size: 12px;
+//     margin: 10px 0 20px;
+//   }
+
+//   a {
+//     text-decoration: none;
+//     color: #30395C;
+//     transition: all 0.3s ease-in-out;
+
+//     &:hover {
+//       color: #43D4D6;
+//     }
+//   }
+// }
+.hide {
+  opacity: 0;
+}
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+}
+
+
+img[data-fully-loaded="true"], [data-fully-loaded="true"] img { animation-name: showLazyImg; animation-duration: 0.7s; animation-fill-mode: both; } @keyframes showLazyImg { from { opacity: 0; } to { opacity: 1; } }
