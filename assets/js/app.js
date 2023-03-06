@@ -24,3 +24,17 @@ $(window).load(function() {
 $( document ).ready(function() {
   $('#tab-1').click();
 });
+
+// toggle mobile nav
+
+var $mobileNav = $("#mobileNav");
+var $menuToggle = $('#menuToggle');
+var $mobileNavLink = $mobileNav.find("a");
+
+$($menuToggle).click(function() {
+  $($mobileNav).toggleClass("active")
+})
+
+$($mobileNavLink).click(function() {
+  $($menuToggle).click();
+})

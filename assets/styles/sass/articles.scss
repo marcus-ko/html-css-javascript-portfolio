@@ -1,8 +1,5 @@
 #articles {
-  // .wrapper {
-  //   padding: 2rem;
-  //   display: flex;
-  //   justify-content: space-around;
+
     .article {
       width: 350px;
       height: 100%;
@@ -36,9 +33,15 @@
       }
     }
 
+    .row {
+      &.wrapper {
+        justify-content: center;
+      }
+    }
+
     .article.medium-1 {
       width: auto;
-      margin: 2rem;
+      // margin: 2rem;
     }
 }
 
@@ -68,6 +71,7 @@
       width: 40%;
       height: 450px;
     }
+
   }
 
   #articles {
