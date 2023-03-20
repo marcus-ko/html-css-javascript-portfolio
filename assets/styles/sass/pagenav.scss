@@ -163,7 +163,7 @@ header {
 
     #mobileNav {
         position: relative;
-        left: 600px;
+        left: 0;
         position: absolute;
         top: 64px;
         margin: 0;
@@ -173,6 +173,10 @@ header {
         height: 100%;
         text-align: center;
         transition: 1s;
+        display: none;
+        -webkit-transform: translateX(110%);
+        -ms-transform: translateX(110%);
+        transform: translateX(110%);
     }
 
     #mobileNav.active {
@@ -180,6 +184,10 @@ header {
         text-align: center;
         transition: 1s;
         padding: 20px;
+        display: block;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
     }
 
    
